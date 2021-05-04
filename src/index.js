@@ -32,7 +32,7 @@ for (let crypto of cryptoMarket) {
         listItem.append(
           `En el mercado ${currency}, La transaccion de ${crypto} de mayor valor en las últimas 24 horas fue de: $${max}`
         );
-        myList.appendChild(listItem);
+        myList.appendChild(listItem).style.paddingLeft = "5%";
       });
   }
 }
